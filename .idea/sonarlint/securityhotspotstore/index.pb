@@ -13,3 +13,23 @@ D
 build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
 F
 app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+y
+Iapp/src/main/java/com/example/blogapplication/ui/sampledata/SampleData.kt,9\5\9501e795c48747a2b3981dba442094466774279f
+
+Oapp/src/main/java/com/example/blogapplication/ui/sampledata/SampleUICreation.kt,a\a\aa3c9767a2799df0e337c1fb0112bc5adc40cd42
+}
+Mapp/src/main/java/com/example/blogapplication/ui/viewmodel/SampleViewModel.kt,d\4\d4bcb7aafd8caea9910ac5659b437226019d614d
+|
+Lapp/src/main/java/com/example/blogapplication/ui/sampledata/SampleManager.kt,9\5\956cf7cc5b9a2e34b117294c77509ecfe57990ed
+A
+gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+C
+settings.gradle.kts,7\4\749edfcc96398253e5b3416184e95c46621da850
+I
+gradle/libs.versions.toml,d\7\d7595319a0658be6f1ed500ad590d42e4b28bc4f
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
