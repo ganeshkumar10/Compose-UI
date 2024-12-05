@@ -1,14 +1,16 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    alias(libs.plugins.dagger)
+    kotlin("kapt")
 }
 
 android {
-    namespace = "com.example.blogapplication"
+    namespace = "com.ganesh.blogapplication"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.blogapplication"
+        applicationId = "com.ganesh.blogapplication"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -38,6 +40,7 @@ android {
     }
     buildFeatures {
         compose = true
+        viewBinding = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
@@ -64,6 +67,8 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.firebase.crashlytics.buildtools)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -73,4 +78,19 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation("androidx.compose.runtime:runtime-livedata:1.7.2")
     implementation ("com.google.code.gson:gson:2.10.1")
+
+    implementation(libs.work.manager)
+    implementation(libs.work.manager.dagger)
+    kapt(libs.work.manager.dagger.kapt)
+    implementation(libs.hilt.compose.navigation)
+
+    implementation(libs.dagger.hilt)
+    kapt(libs.dagger.kapt)
+
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.gson.convertor)
+
+    implementation(libs.room.ktx)
+    kapt(libs.room.compiler)
+
 }
