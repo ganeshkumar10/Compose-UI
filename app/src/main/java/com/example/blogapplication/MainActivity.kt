@@ -56,6 +56,7 @@ fun Greeting(name: String) {
                 )
             }
         }
+
         Column(modifier = Modifier.fillMaxHeight()) {
             Text(
                 text = "Hello $name!",
@@ -70,7 +71,7 @@ fun Greeting(name: String) {
                 maxLines = 5,
                 textAlign = TextAlign.Start
             )
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(160.dp))
             Text(
                 text = "Hello!",
                 modifier = Modifier
